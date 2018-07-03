@@ -1,0 +1,7 @@
+JFXButton {
+     -fx-background-color: #4059a9
+}
+
+.jfx-text-field {
+-fx-prompt-text-fill: #989898;
+}

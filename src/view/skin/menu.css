@@ -1,0 +1,36 @@
+
+BorderPane {
+     -fx-fill: rgba(255,255,255,0.9);
+    -fx-stroke-width: 0;
+    -fx-arc-width:20px;
+    -fx-arc-height:20px;
+}
+
+AnchorPane {
+     -fx-fill: rgba(255,255,255,0.9);
+    -fx-stroke-width: 0;
+    -fx-arc-width:20px;
+    -fx-arc-height:20px;
+}
+
+JFXButton{
+    -fx-background-radius: 5;
+    -fx-font-family: Verdana;
+    -fx-text-fill: darkslategray;
+    -fx-font-weight:100;
+    -fx-alignment: BASELINE_LEFT;
+}
+
+JFXButton:hover {
+    -fx-background-color: lightsteelblue;
+    -fx-cursor: hand;
+    -fx-text-fill: blue;
+}
+
+.circle {
+    -fx-effect:dropshadow; 
+}
+
+.jfx-text-field {
+-fx-prompt-text-fill: #989898;
+}
